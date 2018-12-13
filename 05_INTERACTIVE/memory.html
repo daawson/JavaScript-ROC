@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            width: 600px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        img{
+            cursor: pointer;
+            float: left;
+            max-width: 100px;
+            height: auto;
+            transition: ease 0.5s;
+            border-radius: 50%;
+        }
+
+        p#points{
+            margin: 0;
+            float: left;
+            font-size: 28px;
+            width: 50%;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        button#reset{
+            float: left;
+            width: 50%;
+            height: 50px;
+        }
+
+    </style>
+    <script src="script.js"></script>
+</head>
+<body onload="show()">
+<button id="reset" onclick="reset()">RESET</button>
+    <p id="points">0</p>
+
+
+</body>
+</html>

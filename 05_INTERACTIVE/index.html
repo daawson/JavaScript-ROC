@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <style>
+        body{
+            width: 450px;
+            height: 450px;
+            margin: 0 auto;
+        }
+        .parent{
+            float:left;
+            max-width: 150px;
+            height: auto;
+            position: relative;
+
+        }
+        h1{
+            text-align: center;
+        }
+        img {
+            position: relative;
+            max-width: 150px;
+            height: auto;
+            top: 0;
+            left: 0;
+        }
+        img.like{
+            position: absolute;
+            opacity: 0.5;
+            filter: hue-rotate(90deg);
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1> WHICH ONE DO YOU LIKE?</h1>
+    <div id="1" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap1.jpg">
+    </div> <div id="2" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap2.jpg">
+    </div> <div id="3" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap3.jpg">
+    </div> <div id="4" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap4.jpg">
+    </div> <div id="5" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap5.jpg">
+    </div> <div id="6" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap6.jpg">
+    </div> <div id="7" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap7.jpg">
+    </div> <div id="8" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap8.jpg">
+    </div> <div id="9" class="parent" onclick="likeMe(this.id)">
+        <img src="img/aap9.jpg">
+    </div>
+</body>
+</html>
